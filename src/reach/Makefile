@@ -1,6 +1,6 @@
 include ../makefile.include
 
-CFLAGS += -fPIC -Werror -Wreturn-type -Wunknown-pragmas -Wunused-value -Wunused-label
+CFLAGS += -fPIC -Werror -Wreturn-type -Wunknown-pragmas -Wunused-value -Wunused-label -Wno-deprecated-declarations
 
 ifeq ($(STATIC_REA), 1)
   CXX += -static-libstdc++ -static-libgcc -static
