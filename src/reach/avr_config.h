@@ -38,7 +38,7 @@
 //#define SUBSTITUTE
 #define AB_SUBSTITUTE
 
-#define PRINT_FRAME_SUMMARY
+// #define PRINT_FRAME_SUMMARY
 
 #define PERFORMANCE
 

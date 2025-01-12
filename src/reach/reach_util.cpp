@@ -8270,6 +8270,7 @@ void Reach::print_states_transitions(string filename, Inst* src, Inst* dest, boo
 }
 
 void Reach::print_frame_summary(int k) {
+  return;
   assert(k == _frame_idx);
 
   struct rusage usage;
